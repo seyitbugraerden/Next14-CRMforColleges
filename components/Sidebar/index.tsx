@@ -66,13 +66,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
     >
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
         <Link href="/">
-          <Image
-            width={176}
-            height={32}
-            src={"/images/logo/logo.svg"}
-            alt="Logo"
-            priority
-          />
+          <div className="text-2xl text-white font-bold">Millenium Dev</div>
         </Link>
 
         <button
@@ -373,7 +367,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
           </div>
           <div>
             <h3 className="mb-4 ml-4 text-sm font-semibold text-bodydark2">
-              Final VIP Kurs
+              John Doe
             </h3>
 
             <ul className="mb-6 flex flex-col gap-1.5">

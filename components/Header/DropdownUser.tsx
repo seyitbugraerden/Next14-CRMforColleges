@@ -7,7 +7,7 @@ const DropdownUser = () => {
       <Link className="flex items-center gap-4" href="#">
         <span className="hidden text-right lg:block">
           <span className="block text-sm font-medium text-black dark:text-white">
-            Mustafa Erden
+            john doe
           </span>
           <span className="block text-xs">Yönetici</span>
         </span>

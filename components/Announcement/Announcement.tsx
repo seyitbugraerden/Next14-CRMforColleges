@@ -5,19 +5,19 @@ const announcementData: Announcement[] = [
   {
     id: 1,
     title: "Etüt Programı Güncellendi",
-    desc: "Final VIP Kurs",
+    desc: "John Doe",
     time: "15.05.2024",
   },
   {
     id: 2,
     title: "4 Mayıs Sınav Sonuçları Yayınlandı",
-    desc: "Final VIP Kurs",
+    desc: "John Doe",
     time: "06.05.2024",
   },
   {
     id: 3,
     title: "Mayıs Ayı Sınav Takvimi Yayınlandı",
-    desc: "Final VIP Kurs",
+    desc: "John Doe",
     time: "01.05.2024",
   },
 ];

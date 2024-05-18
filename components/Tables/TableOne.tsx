@@ -2,7 +2,7 @@ import { BRAND } from "@/types/brand";
 
 const brandData: BRAND[] = [
   {
-    name: "Mustafa Erden",
+    name: "john doe",
     branch: "Fizik",
     subject: "Kaldırma Kuvveti",
     date: "15.05.2024",
