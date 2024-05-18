@@ -1,19 +1,22 @@
 import Link from "next/link";
-import { Chat } from "@/types/announcement";
+import type { Announcement } from "@/types/announcement";
 
-const announcementData: Chat[] = [
+const announcementData: Announcement[] = [
   {
+    id: 1,
     title: "Etüt Programı Güncellendi",
     desc: "Final VIP Kurs",
     time: "15.05.2024",
   },
   {
-    title: "Mayıs Ayı Sınav Takvimi Yayınlandı",
+    id: 2,
+    title: "4 Mayıs Sınav Sonuçları Yayınlandı",
     desc: "Final VIP Kurs",
-    time: "01.05.2024",
+    time: "06.05.2024",
   },
   {
-    title: "4 Mayıs Sınav Sonuçları Yayınlandı",
+    id: 3,
+    title: "Mayıs Ayı Sınav Takvimi Yayınlandı",
     desc: "Final VIP Kurs",
     time: "01.05.2024",
   },
