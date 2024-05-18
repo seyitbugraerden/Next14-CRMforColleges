@@ -52,16 +52,16 @@ const Announcement = () => {
 
             <div className="flex flex-1 items-center justify-between">
               <div>
-                <h5 className="font-medium text-black dark:text-white">
+                <h5 className="font-medium text-black dark:text-white line-clamp-1">
                   {item.title}
                 </h5>
                 <p>
-                  <span className="text-sm text-black dark:text-white">
+                  <span className="text-xs text-black text-[rgba(255,255,255,.5)]">
                     {item.desc}
                   </span>
                 </p>
               </div>
-              <span>{item.time}</span>
+              <span className="text-xs">{item.time}</span>
             </div>
           </Link>
         ))}
