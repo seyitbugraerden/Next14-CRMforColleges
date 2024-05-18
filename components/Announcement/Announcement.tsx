@@ -24,7 +24,7 @@ const announcementData: Announcement[] = [
 
 const Announcement = () => {
   return (
-    <div className="col-span-12 rounded-sm border border-stroke bg-white py-6 shadow-default dark:border-strokedark  xl:col-span-4">
+    <div className="col-span-12 rounded-sm border border-stroke bg-white py-6 shadow-default xl:col-span-4">
       <h4 className="mb-6 px-7.5 text-xl font-semibold text-black dark:text-white">
         Duyurular
       </h4>
