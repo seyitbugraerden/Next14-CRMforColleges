@@ -50,7 +50,6 @@ const Calendar = () => {
       day: 24,
     },
   ];
-
   const items = Array.from(
     {
       length:
@@ -105,7 +104,6 @@ const Calendar = () => {
       }
     }
   );
-
   return (
     <div className="mx-auto max-w-7xl">
       <Breadcrumb pageName={`${month} Ayı Sınav Programı`} />
