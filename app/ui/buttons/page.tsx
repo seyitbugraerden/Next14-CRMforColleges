@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import { Metadata } from "next";
-import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
   title: "Next.js Buttons | TailAdmin - Next.js Dashboard Template",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 
 const Buttons = () => {
   return (
-    <DefaultLayout>
+    <>
       <Breadcrumb pageName="Buttons" />
 
       {/* <!-- Normal Button Items --> */}
@@ -471,7 +470,7 @@ const Buttons = () => {
           </div>
         </div>
       </div>
-    </DefaultLayout>
+    </>
   );
 };
 

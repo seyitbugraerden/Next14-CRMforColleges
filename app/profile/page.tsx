@@ -1,7 +1,6 @@
 "use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import Image from "next/image";
-import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import { useState } from "react";
 import { Profile as ProfileType } from "@/types/profile";
 
@@ -26,7 +25,7 @@ const Profile: React.FC = () => {
   };
 
   return (
-    <DefaultLayout>
+    <>
       <div className="mx-auto max-w-242.5">
         <Breadcrumb pageName="Profile" />
 
@@ -146,7 +145,7 @@ const Profile: React.FC = () => {
           ))}
         </div>
       </div>
-    </DefaultLayout>
+    </>
   );
 };
 
