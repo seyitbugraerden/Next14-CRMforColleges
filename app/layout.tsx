@@ -4,14 +4,16 @@ import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import Loader from "@/components/common/Loader";
 import "@/styles/style.css";
+import { usePathname } from "next/navigation";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: any) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [loading, setLoading] = useState<boolean>(true);
+  const params = usePathname();
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
-  }, []);
+  }, [params]);
 
   return (
     <html lang="en">
