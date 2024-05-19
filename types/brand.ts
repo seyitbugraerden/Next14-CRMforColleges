@@ -1,4 +1,5 @@
 export type BRAND = {
+  logo: string;
   name: string;
   branch: string;
   subject: string;
