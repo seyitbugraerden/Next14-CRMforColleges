@@ -32,7 +32,7 @@
 Here is the folder structure of this app.
 
 ```bash
-Next14-CollegeCRM/
+Next14-CRMforColleges/
   |- components/
   |- styles/
   |- types/
@@ -43,7 +43,6 @@ Next14-CollegeCRM/
     |-- profile/
     |-- settings/
     |-- sinav-programi/
-    |-- pricing/
     |-- tables/
     |-- ui/
     |-- app.tsx
@@ -83,7 +82,7 @@ Next14-CollegeCRM/
 
 ## :gear: Tech Stack
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![JavaScript](https://skillicons.dev/icons?i=ts "Typescript")](https://developer.mozilla.org/en-US/docs/Web/Typescript "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Supabase](https://skillicons.dev/icons?i=supabase "Supabase")](https://supabase.com/) [![Prisma](https://skillicons.dev/icons?i=prisma "Prisma")](https://www.prisma.io/)
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![JavaScript](https://skillicons.dev/icons?i=ts "Typescript")](https://developer.mozilla.org/en-US/docs/Web/Typescript "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS")
 
 ## :wrench: Stats
 
@@ -99,32 +98,9 @@ Useful resources and dependencies that are used in QR Store.
 
 ### Production Dependencies
 
-- [@next/font](https://www.npmjs.com/package/@next/font): ^15.0
-- [next](https://www.npmjs.com/package/next): 15.0
-- [react](https://www.npmjs.com/package/react): 19.0
-- [react-countup](https://www.npmjs.com/package/react-countup): ^6.5.3
-- [react-dom](https://www.npmjs.com/package/react-dom): 19.0
-- [prisma](https://www.npmjs.com/package/lucide-react): ^5.17
-- [react-outside-click-handler](https://www.npmjs.com/package/lucide-react): ^1.3.0
-- [react-qr-code](https://www.npmjs.com/package/lucide-react): ^2.0.15
-- [sonner](https://www.npmjs.com/package/lucide-react): ^1.5.0
-- [tailwind-merge](https://www.npmjs.com/package/lucide-react): ^2.5.2
-- [tailwindcss-animate](https://www.npmjs.com/package/lucide-react): ^1.0.7
-- [@kinde-oss/kinde-auth-nextjs](https://www.npmjs.com/package/lucide-react): ^2.3.8
-- [@prisma/client](https://www.npmjs.com/package/lucide-react): ^5.17
-- [@radix-ui/react-dialog](https://www.npmjs.com/package/lucide-react): ^1.1.1
-- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.441.0
-
-### Development Dependencies
-
-- [@types/node](https://www.typescriptlang.org/): ^20
-- [@types/react](https://www.typescriptlang.org/): ^18
-- [@types/react-dom](https://www.typescriptlang.org/): ^18
-- [eslint](https://www.npmjs.com/package/eslint): ^8
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.0
-- [postcss](https://www.npmjs.com/package/postcss): ^8
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.1
-- [typescript](https://www.typescriptlang.org/): ^5
+- [next](https://www.npmjs.com/package/next): 14.2.3
+- [react](https://www.npmjs.com/package/react): 18.0
+- [react-dom](https://www.npmjs.com/package/react-dom): 18.0
 
 
 ## :rocket: Follow Me
